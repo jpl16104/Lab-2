@@ -19,6 +19,9 @@ Now put the HybridTest.java from the u folder in Lab1 into the test/java folder.
 ![Alt text](https://github.com/user-attachments/assets/9fe9335b-4fb6-44e9-b26b-f576ffbcb36d)
 
 ### Step 5
+Put the Junit and Hamcrest files in to the resources folder you created when editing the file structure.
+
+### Step 6
 Outside the source folder there should be a file called pom.xml. open it and felace the code with said code. Changes are explained in report: 
 ```java
 <project xmlns="http://maven.apache.org/POM/4.0.0"
@@ -59,12 +62,12 @@ Outside the source folder there should be a file called pom.xml. open it and fel
     </build>
 </project>
 ```
-### Step 6
+### Step 7
 To compile run command. 
 ```mvn compile```
 Afterwards a new target folder is created with compiled code
 
-### Step 7 
+### Step 8 
 To run tests run command :
 ``` mvn clean test```
 This will run the HybridTest.java file aswell as the default AppTest.java file. 
