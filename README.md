@@ -9,19 +9,20 @@ edit the file given file structure  (You can ignore the target folder it will ge
 
 ### Step 3
 Add the files from lab 1 that are made availible in said repo as a zip file. You can unzip them in the codespace with command unzip Lab.zip
+
 ### Step 4
 Put all files that were in the c folder from lab 1 into the main/java folder. There should be a App.java file in the correct folder. **
 ![Alt text](https://github.com/user-attachments/assets/59d19192-c5f0-443c-b4dd-491a4ddabb67)
 
 
-### Step 4
+### Step 5
 Now put the HybridTest.java from the u folder in Lab1 into the test/java folder. There should be a AppTest.java file there.
 ![Alt text](https://github.com/user-attachments/assets/9fe9335b-4fb6-44e9-b26b-f576ffbcb36d)
 
-### Step 5
+### Step 6
 Put the Junit and Hamcrest files in to the resources folder you created when editing the file structure.
 
-### Step 6
+### Step 7
 Outside the source folder there should be a file called pom.xml. open it and felace the code with said code. Changes are explained in report: 
 ```java
 <project xmlns="http://maven.apache.org/POM/4.0.0"
@@ -62,12 +63,12 @@ Outside the source folder there should be a file called pom.xml. open it and fel
     </build>
 </project>
 ```
-### Step 7
+### Step 8
 To compile run command. 
 ```mvn compile```
 Afterwards a new target folder is created with compiled code
 
-### Step 8 
+### Step 9 
 To run tests run command :
 ``` mvn clean test```
 This will run the HybridTest.java file aswell as the default AppTest.java file. 
